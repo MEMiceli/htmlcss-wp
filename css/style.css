@@ -10,9 +10,10 @@ body{
 }
 .contenitore{
     width: 80%;
+    min-width: 1177px;
     margin: auto;
 }
-
+/* titolo e navigazione */
 #titolo{
     /* height: 150px; */
     border: 1px solid black;
@@ -38,10 +39,22 @@ a{
     float: left;
     margin-right: 16px;
 }
+/*/titolo e navigazione */
 .prima-sezione{
-    height: 600px;
-    background-color: yellow;
-    margin-top: 20px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 1177px 500px; */
+    height: 420px;
+    width: 100%;
+    margin-top: 41px;
+}
+
+.descrizione-banner{
+    width: 50%;
+    color: white;
+    margin-left: 10%;
+    padding-top: 25%;
 }
 .colonne::after {
     content: "";
