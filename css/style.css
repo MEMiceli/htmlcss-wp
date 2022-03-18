@@ -3,14 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: white;
+    color: #8a8a8a;
+    font-family: "Montserrat";
+}
 .contenitore{
     width: 80%;
     margin: auto;
 }
+
 #titolo{
-    height: 150px;
-    background-color: pink;
-    
+    /* height: 150px; */
+    border: 1px solid black;
+}
+.logo{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 169px 69px;
+    width: 169px;
+    height: 69px;
+}
+.barra-navigazione{
+    list-style-type: none;
+    font-size: larger;
+    margin-top: 46px;
+
+}
+a{
+    text-decoration: none;
+    color: #8a8a8a;
+}
+.barra-navigazione li{
+    float: left;
+    margin-right: 16px;
 }
 .prima-sezione{
     height: 600px;
