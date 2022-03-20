@@ -48,6 +48,7 @@ a{
     height: 420px;
     width: 100%;
     margin-top: 41px;
+    border-radius: 3%;
 }
 
 .descrizione-banner{
@@ -56,6 +57,13 @@ a{
     margin-left: 10%;
     padding-top: 25%;
 }
+.titolo-sezione h2{
+    color:black;
+    margin-bottom: 3px;
+}
+ /* .didascalia{
+    margin-top: 5px;
+} */ */
 .colonne::after {
     content: "";
     display: table;
@@ -66,7 +74,7 @@ a{
 }
 .seconda-sezione{
     min-height: 300px;
-    background-color: blue;
+    /* background-color: blue; */
     margin:auto;
     margin-top: 20px;
 
@@ -74,10 +82,8 @@ a{
 /* /* .seconda-sezione > div,header{
     background-color: cadetblue; */
 .titolo-sezione{
-    height: 150px;
-    width: 100%;
     margin-bottom: 20px;
-    background-color: chocolate;
+    /* background-color: chocolate; */
 }
 .colonna-sinistra{
     width: calc(20% - 20px);
@@ -101,7 +107,15 @@ a{
     background-color: chartreuse;
 }
 footer{
-    height: 150px;
-    background-color: violet;
+    /* height: 150px;
+    background-color: violet; */
+    width: 100%;
     margin-top: 15px;
+    
+}
+.firma{
+    text-align: center;
+}
+.cuore{
+    color: red;
 }
